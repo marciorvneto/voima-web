@@ -2,8 +2,10 @@
   "name": "voima-web",
   "version": "1.0.0",
   "description": "An ecological modeling engine for simulating species interactions, population dynamics, and energy flows within ecosystems.",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
+    "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Mãrcio Vianna",
@@ -11,5 +13,8 @@
   "dependencies": {
     "nodemon": "^3.1.7",
     "ts-node": "^10.9.2"
+  },
+    "devDependencies": {
+    "typescript": "^5.0.0"
   }
 }
