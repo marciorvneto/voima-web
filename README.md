@@ -120,7 +120,3 @@ Feel free to fork this repository, submit issues, or contribute features by maki
 ## **License**
 
 This project is licensed under the MIT License.
-
----
-
-Does this draft look good to you? Feel free to suggest any changes or additional information you'd like to include!
