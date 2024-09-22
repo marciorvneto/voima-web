@@ -7,6 +7,9 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Mãrcio Vianna",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "nodemon": "^3.1.7",
+    "ts-node": "^10.9.2"
+  }
 }
-
