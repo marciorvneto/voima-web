@@ -1,0 +1,12 @@
+{
+  "name": "voima-web",
+  "version": "1.0.0",
+  "description": "An ecological modeling engine for simulating species interactions, population dynamics, and energy flows within ecosystems.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mãrcio Vianna",
+  "license": "MIT"
+}
+
