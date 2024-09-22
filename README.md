@@ -48,7 +48,7 @@ const scenario: Scenario = {
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/voima-web.git
+   git clone https://github.com/marciorvneto/voima-web 
    cd voima-web
    ```
 
