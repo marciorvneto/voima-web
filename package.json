@@ -6,13 +6,13 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc",
+    "dev": "nodemon src/sandbox.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Mãrcio Vianna",
+  "author": "Márcio Vianna",
   "license": "MIT",
-  "dependencies": {
-  },
-    "devDependencies": {
+  "dependencies": {},
+  "devDependencies": {
     "typescript": "^5.0.0",
     "nodemon": "^3.1.7",
     "ts-node": "^10.9.2"
