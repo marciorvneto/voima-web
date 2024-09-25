@@ -39,10 +39,4 @@ const scenario: Scenario = {
 // Run simulation
 const results = runRK4Simulation(scenario);
 
-// Access results
-// console.log(results.populationOverTime);
-// console.log(results.energyFlowOverTime);
-
-// console.log(scenario);
-
 console.log(results.populationOverTime["Rabbit"].slice(0, 30));
