@@ -9,9 +9,9 @@
 - **Species Dynamics**: Simulate growth, logistic population dynamics with carrying capacities, and energy transfers of species over time.
 - **Functional Responses**: Model predator-prey interactions using Type I, II, and III functional responses.
 - **Interaction Modeling**: Define multiple interactions, including predation, competition, and mutualism between species.
-- **Environmental Effects**: Introduce external stressors like fishing pressure, habitat loss, climate change, and pollution.
-- **Energy Flow Tracking**: Monitor the transfer of energy between trophic levels in the ecosystem.
-- **Events and Management Actions**: Simulate random events or management interventions that affect the ecosystem.
+- **Environmental Effects (unfinished)**: Introduce external stressors like fishing pressure, habitat loss, climate change, and pollution.
+- **Energy Flow Tracking (unfinished)**: Monitor the transfer of energy between trophic levels in the ecosystem.
+- **Events and Management Actions (unfinished)**: Simulate random events or management interventions that affect the ecosystem.
 - **Modular and Flexible**: Easily extend and add new nodes, interactions, or environmental parameters.
 
 ## **Standard Units (SI)**
@@ -19,10 +19,10 @@
 Voima Web uses SI units to ensure consistency across all calculations:
 
 - **Biomass**: Kilograms (kg) or metric tons (t).
-- **Growth Rate**: Per year (\(\text{year}^{-1}\)).
-- **Consumption Rate**: Kilograms per year (\(\text{kg/year}\)).
+- **Growth Rate**: Per year (year^-1).
+- **Consumption Rate**: Kilograms per year (kg/year).
 - **Time**: Years.
-- **Energy**: Joules per year (\(\text{J/year}\)) for energy transfer between trophic levels.
+- **Energy**: Joules per year (J/year) for energy transfer between trophic levels.
 
 ## **Functional Response Types**
 
