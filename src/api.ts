@@ -1,3 +1,5 @@
+import { runRK4Simulation } from "./calculations";
+
 export type EnvironmentType = {
   fishingEffort?: { [species: string]: number }; // Dimensionless (fraction of population)
   habitatLoss?: number; // Dimensionless (fraction of habitat lost)
@@ -67,3 +69,5 @@ export type ResourceType = {
   regenerationRate: number; // Rate at which the resource regenerates
   consumptionRate: { [speciesName: string]: number }; // Consumption rate per species
 };
+
+export const simulate = (scenario: Scenario) => runRK4Simulation(scenario);

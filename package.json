@@ -1,6 +1,6 @@
 {
   "name": "voima-web",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "An ecological modeling engine for simulating species interactions, population dynamics, and energy flows within ecosystems.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
